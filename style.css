@@ -1,0 +1,37 @@
+body {
+	font-family: Verdana, Geneva, sans-serif;
+	font-size: 11px;
+
+}
+
+img {
+	width: 400px;
+	height: 400px;
+}
+
+table {
+	table-layout: fixed;
+	width: 70%;
+	font-size: 12px;
+	border: 1px solid black;
+}
+table td {
+	min-width: 100px;
+	max-width: 400px;
+	padding: 8px 10px;
+	line-height: 1.5em;
+}
+table th {
+	text-align: left;
+	background-color: #CCE2F4;
+	padding: 5px 10px;
+}
+
+table tr.row { 	background-color: #FFF; }
+table tr.row:hover { background-color: #CCE2F4!important; }
+
+form input[type="text"] {
+	width: 300px;
+	padding: 3px 6px;
+	font-size: 13px;
+}
